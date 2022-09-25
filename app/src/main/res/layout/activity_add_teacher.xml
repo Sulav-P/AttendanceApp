@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue3"
+    tools:context=".parent.ParentActivity">
+
+    <EditText
+        android:id="@+id/TeacherName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="115dp"
+        android:hint="TEACHER NAME     HINT:SUROJ MAHARJAN"
+        android:inputType="textCapCharacters"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/TeacherPhone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="168dp"
+        android:hint="PHONE NUMBER     HINT:1234567890"
+        android:inputType="numberSigned"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/TeacherEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="221dp"
+        android:hint="TEACHER EMAIL       HINT:user@gmail.com"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/tpassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="273dp"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:layout_alignParentLeft="true" />
+
+    <!--<EditText
+        android:id="@+id/TeacherQualification"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="326dp"
+        android:hint="HighestQualification   HINT:MASTERS"
+        android:inputType="textCapCharacters"
+        android:layout_alignParentLeft="true" />  -->
+
+    <AutoCompleteTextView
+        android:id="@+id/TeacherQualification"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="326dp"
+        android:completionThreshold="1"
+        android:hint="Highest Qualification"
+        />
+
+    <EditText
+        android:id="@+id/TeacherAddress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="379dp"
+        android:hint="ADDRESS                 HINT:CHABAHIL"
+        android:inputType="textCapCharacters"
+        android:layout_alignParentLeft="true" />
+
+
+    <Button
+        android:id="@+id/btnTeacherRegister"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="432dp"
+        android:background="@drawable/round_button"
+        android:text="REGISTER"
+        android:layout_alignParentLeft="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="485dp"
+        android:layout_alignParentLeft="true">
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/he"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

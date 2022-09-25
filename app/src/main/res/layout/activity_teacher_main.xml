@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".teacher.TeacherMain"
+    android:background="@drawable/blue3"
+    android:orientation="vertical">
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="108dp"
+        android:layout_alignParentRight="true" />
+
+        <Spinner
+            android:id="@+id/spinnerclass"
+            android:layout_width="175dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="108dp"
+            />
+
+
+    <Button
+        android:id="@+id/studentattendancetake"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/round_button"
+        android:text="TAKE STUDENTS ATTENDANCE"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat"/>
+
+    <Button
+        android:id="@+id/studentsattendanceview"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="278dp"
+        android:background="@drawable/round_button"
+        android:text="VIEW STUDENTS ATTENDANCE"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat"/>
+
+    <Button
+        android:id="@+id/studentleaverequests"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="359dp"
+        android:background="@drawable/round_button"
+        android:text="STUDENTS LEAVE REQUESTS"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat"/>
+
+   <!-- <Button
+        android:id="@+id/btntLOGOUT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT" />  -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/he"
+        android:layout_alignParentLeft="true" />
+
+
+
+</RelativeLayout>

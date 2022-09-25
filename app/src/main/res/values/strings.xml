@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Attendance App</string>
+    <string name="present">P</string>
+    <string name="absent">A</string>
+    <string name="save">SAVE</string>
+    <string name="attend">SHOW</string>
+    <string name="format">DD-MM-YYYY</string>
+
+    <string-array name="Course">
+        <item> Project Management </item>
+        <item> Organization and Management </item>
+        <item> Energy Environment and Society </item>
+        <item> Computer Network </item>
+        <item> Distributed System </item>
+        <item> Digital Signal Analysis and Processing </item>
+        <item> Elective I </item>
+        <item> Project(Part A) </item>
+
+        <item> Engineering Professional Practice </item>
+        <item> Information System </item>
+        <item> Simulation and Modelling </item>
+        <item> Internet and Intranet </item>
+        <item> Elective II </item>
+        <item> Elective III </item>
+        <item> Multimedia(Elective III) </item>
+        <item> Project II(Part B) </item>
+
+        <item> Communication English </item>
+        <item> Probability and statistics </item>
+        <item> Software Engineering </item>
+        <item> Data Communication </item>
+        <item> Computer Organization and Architecture </item>
+        <item> Instrumentation II </item>
+        <item> Computer Graphics </item>
+
+        <item> Engineering Economics </item>
+        <item> Object Oriented Analysis and Design </item>
+        <item> Database Management Systems </item>
+        <item> Artificial Intelligence </item>
+        <item> Embedded System</item>
+        <item> Operating System </item>
+        <item> Minor Project </item>
+
+        <item>ENGINEERING MATHEMATICS I</item>
+        <item>COMPUTER PROGRAMMING</item>
+        <item>ENGINEERING DRAWING I</item>
+        <item>ENGINEERING PHYSICS</item>
+        <item>APPLIED MECHANICS</item>
+        <item>BASIC ELECTRICAL ENGINEERING</item>
+
+        <item>ENGINEERING MATHEMATICS II</item>
+        <item>ENGINEERING DRAWING II</item>
+        <item>BASIC ELECTRONICS ENGINEERING</item>
+        <item>ENGINEERING CHEMISTRY</item>
+        <item>FUNDAMENTALS OF THERMODYNAMICS AND HEAT TRANSFER</item>
+        <item>WORKSHOP TECHNOLOGY</item>
+
+        <item>ENGINEERING MATHEMATICS</item>
+        <item>OBJECT ORIENTED PROGRAMMING</item>
+        <item>THEORY OF COMPUTATION</item>
+        <item>ELECTRIC CIRCUIT THEORY</item>
+        <item>ELECTRONIC DEVICES AND CIRCUIT</item>
+        <item>DIGAITAL LOGIC</item>
+
+        <item>APPLIED MATHEMATICS</item>
+        <item>NUMERICAL METHODS</item>
+        <item>INSTRUMENTATION I</item>
+        <item>ELECTRICAL MACHINES</item>
+        <item>DISCRETE STRUCTURE</item>
+        <item>DATA STRUCTURE AND ALGORITHMS</item>
+        <item>MICROPROCESSORS</item>
+
+    </string-array>
+
+
+    <string-array name="SemesterList">
+        <item> 1</item>
+        <item> 2</item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+        <item> 6 </item>
+        <item> 7 </item>
+        <item> 8 </item>
+    </string-array>
+
+</resources>

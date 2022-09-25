@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendanceView.IndividualAttendance"
+    android:background="@drawable/blue3"
+    android:orientation="vertical">
+
+  <!--  <EditText
+        android:id="@+id/selClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:hint="SELECT CLASS (072-BCT-B)"
+        android:inputType="textCapCharacters"/>  -->
+
+    <Spinner
+        android:id="@+id/selClass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+
+  <!--  <EditText
+        android:id="@+id/selCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:hint="SELECT COURSE (SH301)"
+        android:inputType="textCapCharacters"/>  -->
+
+    <AutoCompleteTextView
+        android:id="@+id/spinnercourse"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:completionThreshold="2"
+        android:hint="COURSE NAME"
+        android:dropDownAnchor="@id/spinnercourse"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/selDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:hint="SELECT DATE (dd-MM-YYYY)"
+        android:inputType="textCapCharacters"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/viewButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:text="View"
+            android:background="@drawable/round_button"
+
+            android:textAlignment="gravity" />
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listviewborder"
+            android:divider="#180201"
+            android:dividerHeight="2dp"
+            android:layout_marginTop="65dp">
+
+        </ListView>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

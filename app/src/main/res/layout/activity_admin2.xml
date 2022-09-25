@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.AdminActivity"
+    android:background="@drawable/blue3"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/aemail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/apassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="175dp"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/alogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/round_button"
+        android:text="LOGIN"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/aregistration"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/round_button"
+        android:text="REGISTRATION"
+        android:layout_alignParentLeft="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="409dp"
+        android:layout_alignParentLeft="true">
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/he"
+        android:layout_alignParentLeft="true" />
+
+
+</RelativeLayout>
+
+
