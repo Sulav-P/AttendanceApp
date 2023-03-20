@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parent.ParentActivity"
+    android:orientation="vertical"
+    android:background="@drawable/blue3">
+
+   <!-- <EditText
+        android:id="@+id/etSemester"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:hint="SEMESTER               HINT:2"
+        android:inputType="numberSigned" />   -->
+    <AutoCompleteTextView
+        android:id="@+id/etSemester"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="115dp"
+        android:completionThreshold="1"
+        android:hint="SEMESTER"
+        android:dropDownAnchor="@id/etSemester"
+        />
+
+    <EditText
+        android:id="@+id/etClassname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:hint="CLASS NAME       HINT:072-BCT-B"
+        android:inputType="textCapCharacters"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+   <!-- <EditText
+        android:id="@+id/etCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="213dp"
+        android:hint="COURSE NAME       HINT:SH401"
+        android:inputType="textCapCharacters"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" /> -->
+
+    <AutoCompleteTextView
+        android:id="@+id/etCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="213dp"
+        android:completionThreshold="2"
+        android:hint="COURSE NAME"
+        />
+
+    <AutoCompleteTextView
+          android:id="@+id/Spinnername"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:layout_marginTop="264dp"
+          android:completionThreshold="1"
+          android:hint="TEACHER NAME"
+         android:dropDownAnchor="@id/Spinnername"
+
+        />
+
+     <!-- <Spinner
+          android:id="@+id/Spinnername"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="264dp"
+          android:layout_alignParentLeft="true"
+          />   -->
+
+  <!--  <EditText
+        android:id="@+id/TeacherName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="264dp"
+        android:hint="TEACHER NAME     HINT:SAM NELSON"
+        android:inputType="textCapCharacters"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" /> -->
+
+    <!-- <EditText
+         android:id="@+id/TeacherEmail"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="314dp"
+         android:hint="TEACHER EMAIL     HINT:user@gmail.com"
+         android:inputType="textEmailAddress"
+         android:layout_alignParentLeft="true"
+         tools:ignore="RtlCompat" />   -->
+
+    <AutoCompleteTextView
+     android:id="@+id/TeacherEmail"
+     android:layout_width="match_parent"
+     android:layout_height="40dp"
+     android:layout_marginTop="314dp"
+     android:completionThreshold="2"
+     android:hint="TEACHER EMAIL"
+     android:dropDownAnchor="@id/TeacherEmail"
+
+     />
+
+
+    <EditText
+        android:id="@+id/TeacherPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="364dp"
+        android:hint="TEACHER PASSWORD     "
+        android:inputType="textPassword"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/btnClassRegister"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="414dp"
+        android:background="@drawable/round_button"
+        android:text="REGISTER"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="464dp"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat">
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/he"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+</RelativeLayout>

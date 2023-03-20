@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.DeleteClassTeacherStudent.DeleteParent"
+    android:background="@drawable/blue3"
+    android:orientation="vertical">
+
+  <!--  <EditText
+        android:id="@+id/classname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="115dp"
+        android:hint="CLASS NAME (072-BCT-B)"
+        android:inputType="textCapCharacters"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/coursename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:hint="COURSE NAME (SH403)"
+        android:inputType="textCapCharacters"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/teachername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="213dp"
+        android:hint="TEACHER NAME  (SULAV PANDIT)"
+        android:inputType="textCapCharacters"
+        android:layout_alignParentLeft="true" />   -->
+
+
+    <Button
+        android:id="@+id/cdelete"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/round_button"
+        android:text="DELETE CLASS"
+        android:layout_alignParentLeft="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="345dp"
+        android:layout_alignParentLeft="true">
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/he"
+        android:layout_alignParentLeft="true" />
+
+
+    <Spinner
+        android:id="@+id/spinnerclass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="115dp"
+        android:layout_alignParentLeft="true"
+        />
+    <!--<Spinner
+        android:id="@+id/spinnername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="175dp"
+        android:layout_alignParentLeft="true"
+        />  -->
+  <AutoCompleteTextView
+      android:id="@+id/spinnername"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginTop="175dp"
+      android:completionThreshold="1"
+      android:hint="TEACHER NAME"
+      android:dropDownAnchor="@id/spinnername"
+
+      />
+
+   <!-- <Spinner
+        android:id="@+id/spinnercourse"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="235dp"
+        android:layout_alignParentLeft="true"
+        />  -->
+  <AutoCompleteTextView
+      android:id="@+id/spinnercourse"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginTop="235dp"
+      android:completionThreshold="2"
+      android:hint="COURSE NAME"
+      android:dropDownAnchor="@id/spinnercourse"
+
+      />
+
+
+</RelativeLayout>

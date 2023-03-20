@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.AddClasstTeacherStudent.AddClassTeacherStudentMain"
+    android:background="@drawable/blue3"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/deleteclass"
+        android:text=" DELETE CLASS"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:background="@drawable/round_button"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+
+    <Button
+        android:id="@+id/deletestudent"
+        android:text="DELETE STUDENT"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="243dp"
+        android:background="@drawable/round_button"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+    <Button
+
+        android:id="@+id/deleteparent"
+        android:text="DELETE PARENT"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="324dp"
+        android:background="@drawable/round_button"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/deleteteacher"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="405dp"
+        android:background="@drawable/round_button"
+        android:text="DELETE TEACHER"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/he"
+        android:layout_alignParentLeft="true" />
+
+
+</RelativeLayout>

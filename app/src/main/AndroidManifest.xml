@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sulav.attendanceapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".teacher.TeacherActivity" />
+        <activity android:name=".teacher.TeacherMain" />
+        <activity android:name=".admin.AdminMain" />
+        <activity android:name=".student.StudentActivity" />
+        <activity android:name=".parent.ParentActivity" />
+        <activity android:name=".student.StudentMain" />
+        <activity android:name=".parent.ParentMain" />
+        <activity android:name=".admin.AddClasstTeacherStudent.addclass.AddClassActivity" />
+        <activity android:name=".admin.AddClasstTeacherStudent.addteacher.AddTeacherActivity" />
+        <activity android:name=".admin.AddClasstTeacherStudent.addstudent.AddStudentActivity" />
+        <activity android:name=".admin.AdminActivity" />
+        <activity android:name=".admin.AddClasstTeacherStudent.AddClassTeacherStudentMain" />
+        <activity android:name=".admin.ADMINFEEDBACK.ADMIN_PARENTFEEDBACK" />
+        <activity android:name=".admin.DeleteClassTeacherStudent.DeleteClassTeacherStudent" />
+        <activity android:name=".parent.PARENTFEEDBACK" />
+        <activity android:name=".admin.ADMINFEEDBACK.FEEDBACKMAIN" />
+        <activity android:name=".admin.ADMINFEEDBACK.ADMIN_STUDENTFEEDBACK" />
+        <activity android:name=".student.STUDENTFEEDBACK" />
+        <activity android:name=".teacher.STUDENT_ATTENDANCE_SHEET" />
+        <activity android:name=".teacher.LEAVE_REQUESTS" />
+        <activity android:name=".student.LEAVE_REQUEST" />
+        <activity android:name=".admin.DeleteClassTeacherStudent.DeleteClass" />
+        <activity android:name=".admin.DeleteClassTeacherStudent.DeleteTeacher" />
+        <activity android:name=".admin.DeleteClassTeacherStudent.DeleteStudent" />
+        <activity android:name=".admin.DeleteClassTeacherStudent.DeleteParent" />
+        <activity android:name=".AttendanceView.IndividualAttendance" />
+        <activity android:name=".AttendanceView.AttenadanceViewMain" />
+        <activity android:name=".AttendanceView.WholeClassAttendance" />
+        <activity
+            android:name=".listviewhelpers.Pop"
+            android:theme="@style/AppTheme.CustomTheme" />
+    </application>
+
+</manifest>
